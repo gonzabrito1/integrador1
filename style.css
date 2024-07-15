@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+  background: url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg);
+  background-attachment: fixed;
+}
+/* header */
+
+header img {
+    width: 35px;
+    height: 35px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #848478;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.navbar-nav {
+    display: flex;
+    gap: 180px;
+}
+.navbar-list {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#img2 {
+    width: 30px;
+    height: 30px;
+}
+
+#img1 {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Hero top */
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#hero-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-top-principal img {
+    width: 100%;
+}
+
+.hero-top-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #c1c1bc;
+    
+    
+}
+
+.hero-top-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 40px ;
+    border-top: 2px solid #848479;
+    border-right: 2px solid #848479;
+    border-left: 2px solid #848479;
+}
+
+.hero-top-contenido h1 {
+    font-size: 3rem;
+}
+
+.hero-top-contenido-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hero-top-botones a {
+    color: white;
+    background: black;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: all .3s ease;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.hero-top-botones a:hover {
+    background: white;
+    color: black;
+    border: 1px solid black
+}
+
+/* Hero md  */
+
+#hero-beneficios {
+    display: flex;
+    /* border: 1px solid salmon; */
+    /* padding: 50px; */
+    padding: 50px 40px ;
+    background: #a3a39a;
+    border: 2px solid #848479;
+}
+
+.hero-mid-mid {
+    /* border: 1px solid salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    gap: 70px;
+    padding: 50px 0px;
+}
+.hero-mid-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.hero-mid-top h2 {
+    font-size: 38px;
+}
+
+.hero-mid-top p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hero-mid-1,
+.hero-mid-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.hero-mid-1 img,
+.hero-mid-2 img {
+    width: 25px;
+    height: 25px;
+}
+.hero-mid-botones a {
+    color: white;
+    background: black;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: all .3s ease;
+    border: 1px solid black;
+}
+.hero-mid-botones a:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.hero-mid-botones {
+    padding: 20px 0px;
+}
+.hero-mid-imagen img {
+    width: 100%;
+}
+.hero-mid-imagen {
+    padding-right: 25px;
+}
+
+/* Hero productos */
+#hero-productos {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+
+.hero-productos-total {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 40px;
+    background: #c1c1bc;
+    border-left: 2px solid #848479;
+    border-right: 2px solid #848479;
+    
+}
+
+.hero-productos-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #848479;
+}
+.hero-productos-total h2 {
+    font-size: 38px;
+}
+.hero-productos-info p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hero-productos-info a {
+    color: white;
+    background: black;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: all .3s ease;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hero-productos-info a:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.hero-productos-cards-1 img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.hero-productos-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px 0;
+    
+}
+.hero-productos-cards-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 320px;
+    border-radius: 15px;
+    background: #a3a39a;
+    padding: 15px 30px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 29px -7px rgba(0,0,0,0.75);
+
+    
+}
+.hero-productos-cards-1 h3 {
+    font-size: 22px;
+
+}
+.hero-productos-cards-1 p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-productos-cards-1 span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* hero info contacto  */
+
+#hero-info-contacto {
+    background: #a3a39a;
+    padding: 50px 40px ;
+    border: 2px solid #848479;
+}
+.hero-info-contacto {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    padding: 0 40px;
+}
+.hero-info-contacto img{
+    width: 25px;
+    height: 25px;
+}
+
+.hero-info-contacto1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 20%;
+    /* border: 1px solid #a3a39a; */
+    background: #c1c1bc;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 1px 1px 38px -7px rgba(0,0,0,0.75) inset;
+}
+
+.hero-info-contacto1 h3 {
+    font-size: 22px;
+}
+.hero-info-contacto1 p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.hero-info-contacto1 a {
+    color: black;
+    font-weight: 500;
+    text-decoration: underline ;
+}
+
+/* contacto */
+
+#hero-contacto {
+    padding: 50px 40px;
+    background: #c1c1bc;
+    border-left: 2px solid #848479;
+    border-right: 2px solid #848479;
+}
+.hero-contacto-form {
+    display: flex;
+    width: 98%;
+    
+    justify-content: space-between;
+    gap: 60px;
+    padding: 0 40px;
+    
+}
+
+#suscrib {
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    border: 1px solid black;
+}
+
+#boton-contacto {
+    width: 100px;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: white;
+    background: black;
+    border: none;
+    cursor: pointer;
+}
+.hero-contacto-llename {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 25%;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.hero-contacto-llename h3 {
+    font-size: 22px;
+}
+.hero-contacto-llename p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-redes-sociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+/* footer */
+
+#footer {
+    border-top: 2px solid #848479;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 10px;
+}
+
+.footer-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer-1 p {
+    text-decoration:underline;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#footer p {
+    
+}
