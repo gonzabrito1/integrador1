@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+html{
+    /* scroll-behavior: smooth;
+    scroll-padding-top: 85px; */
+}
+body {
+    background: url(https://images.pexels.com/photos/3320028/pexels-photo-3320028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* padding-top: 110px; */
+    
+     
+}
+header img {
+    width: 80px;
+    height: 80px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid sandybrown; */
+    padding: 10px 40px;
+    font-size: 20px;
+    /* position:fixed; */
+    width: 100%;
+    z-index: 2;
+}
+.navbar-nav {
+    display: flex;
+    gap: 180px;
+}
+.navbar-list {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#img2 {
+    width: 30px;
+    height: 30px;
+}
+
+#img1 {
+    width: 40px;
+    height: 40px;
+}
+
+/* ------------------------------------ */
+#registro {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.registro {
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid black;
+}
+
+
+.info-registro {
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-registro input {
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid black;
+
+}
+
+.registro a {
+    color: black;
+    padding: 10px 15px;
+    border: 1px solid black;
+    transition: all .3s ease;
+}
+
+.registro a:hover {
+    color: white;
+    background: black;
+    border: 1px solid white;
+}
+
+
+/* MEDIA---------------------------------------------- */
+@media (max-width: 992px) {
+    .hero-contacto-form 
+ 
+    
+}
+
+
+@media (max-width: 576px) {
+
+}
