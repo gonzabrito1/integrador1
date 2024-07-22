@@ -115,6 +115,10 @@ main {
     border-top: 2px solid #848479;
     border-right: 2px solid #848479;
     border-left: 2px solid #848479;
+    
+}
+.hero-top-contenido h1 {
+    animation: register-3 2s ease 0.5s 1 normal backwards;
 }
 
 .hero-top-contenido h1 {
@@ -129,6 +133,7 @@ main {
     gap: 50px;
     font-weight: 500;
     font-size: 18px;
+    animation: register-2 2s ease 0.5s 1 normal backwards;
 }
 
 .hero-top-botones a {
@@ -220,8 +225,12 @@ main {
 }
 .hero-mid-imagen {
     padding-right: 25px;
+    animation: register-2 2s ease 0.5s 1 normal backwards;
 }
 
+.hero-mid-texto {
+    animation: register-3 2s ease 0.5s 1 normal backwards;
+}
 /* Hero productos */
 #hero-productos {
     display: flex;
@@ -237,7 +246,6 @@ main {
     background: #c1c1bc;
     border-left: 2px solid #848479;
     border-right: 2px solid #848479;
-    
 }
 
 .hero-productos-info {
@@ -289,6 +297,8 @@ main {
     justify-content: center;
     gap: 100px;
     padding: 40px 0;
+    animation: register-4 2s ease 0.5s 1 normal backwards;
+    animation-;
     
 }
 
@@ -559,9 +569,10 @@ main {
         align-items: center;
         justify-content: center;
         gap: 10px;
+        
     }
     .hero-info-contacto1 {
-        width: 60%;
+        width: 70%;
         height: 220px;
     }
 
@@ -578,4 +589,39 @@ main {
     .hero-contacto-form {
         gap: 15px;
     }
+}
+
+@keyframes register-2 {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes register-3 {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@keyframes register-4 {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }

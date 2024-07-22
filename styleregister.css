@@ -67,14 +67,27 @@ header {
 }
 
 /* ------------------------------------ */
+@keyframes register {
+    0% {
+        opacity: 0;
+        transform: translateY(-250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 #registro {
     display: flex ;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 90vh;
-    
+    animation: register 2s ease 1s 1 normal backwards;
+
 }
+
 
 .registro {
     background: linear-gradient(to right, #d9a7c7, #fffcdc);;
@@ -118,15 +131,3 @@ header {
     border: 1px solid white;
 }
 
-
-/* MEDIA---------------------------------------------- */
-@media (max-width: 992px) {
-    .hero-contacto-form 
- 
-    
-}
-
-
-@media (max-width: 576px) {
-
-}
