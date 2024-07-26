@@ -131,3 +131,9 @@ header {
     border: 1px solid white;
 }
 
+@media (max-width: 400px) {
+    .registro {
+        width: 300px;
+        height: 300px;
+    }
+}
