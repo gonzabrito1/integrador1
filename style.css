@@ -28,7 +28,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background: url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg);
-    padding: 10px 40px;
+    padding: 10px 50px;
     font-size: 20px;
     border-bottom: 2px solid black;
     position:fixed;
@@ -37,7 +37,7 @@ header {
 }
 .navbar-nav {
     display: flex;
-    gap: 180px;
+    gap: 100px;
 }
 .navbar-list {
     display: flex;
@@ -65,7 +65,29 @@ header {
     justify-content: center;
     gap: 10px;
 }
+#Entrar1 {
+    color: rgb(255, 251, 251);
+    font-weight: 600;
+    font-size: 14px;
+    background: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    transition: all .3s ease;
+}
 
+#Entrar1:hover {
+    color: black;
+    background: white;
+    border: none;
+}
+
+.registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
 #img2 {
     width: 30px;
     height: 30px;
@@ -758,7 +780,23 @@ main {
         height: 200px;
     }
 }
-
+@media (max-width: 415px) {
+    .registro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        padding: 7px ;
+    }
+    .navbar-nav {
+        gap: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media (max-width: 400px) {
     .hero-top-contenido h1 {
         width: 100%;
