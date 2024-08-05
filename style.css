@@ -590,8 +590,8 @@ main {
         position: absolute;
         top: 104px;
         right: 60px;
-        height: 20vh;
-        width: 100%;
+        height: 30vh;
+        width: 101%;
         left: -1px;
         background: url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg);
         display: flex;
@@ -603,6 +603,7 @@ main {
         animation: menu 2s ease 0s 1 normal forwards;
         display: none;
         gap: 10px;
+        padding: 30px 0;
     }
     label img {
         display: block;
@@ -745,14 +746,14 @@ main {
     .navbar-list {
         position: absolute;
         width: 105%;
-        top: 103px;
+        top: 104px;
         left: -1px;
-        right: 20px;
+        right: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 25vh;
+        height: 30vh;
         background-image: url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg);
         border-radius: 0 0 5px 5px;
         border: 1px solid black;
@@ -801,6 +802,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    }
+    .navbar-list {
+        padding: 30px 0;
     }
 }
 @media (max-width: 400px) {
